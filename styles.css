@@ -34,43 +34,87 @@ header{
     color: #d8d8d8;
 }
 
-.welpp{
+ /*Info on Amo on home page*/
+
+.Amo{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.Blue{
+.information{
+    font-size: larger;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #11201d;
+    color: aliceblue;
+    
+}
+
+/*Footer Part*/
+
+.address{
     display: flex;
+   
+    justify-content: left;
+}
+
+ .location{
+    display: flex;
+    justify-content: right;
+}
+
+/*about me*/
+
+.Technology{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.jam{
-    display: grid;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.cake{
-    display: grid;
+.Drive{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 
 }
 
 .Goals{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: right;
 }
+
+/*Contact Information*/
 
 .contact{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
 
 }
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #11201d;
+}
+
+
 
 .Video{
     height: 100vh;
