@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=" contact.js "></script>
     <title>contact us</title>
 </head>
 <body>
@@ -35,25 +36,33 @@
                 <p>For any further enqiures please contact me and look out for my email response</p>
                 <form
                 action="https://formspree.io/f/xbjnqooo"
-                method="POST"
+                method="POST" onsubmit="handleFormSubmit(event)"
               >
                 <label>
                   Your Name:
-                  <input type="name" name="name">
+                  <input id="name" type="name" name="name">
+                  <span class="hidden" id="name-span">Name is invalid</span><br>
                 </label>
+                  <br>
                 <label>
                     Your Surname:
-                    <input type="surname" name="surname">
+                    <input id="surname" type="surname" name="surname">
+                    <span class="hidden" id="surname-span">Surname is invalid</span><br>
+
                   </label>
+                  <br>
                   <label>
                     Your email:
-                    <input type="email" name="email">
+                    <input id="email" type="email" name="email">
+                    <span class="hidden" id="email-span">Email is invalid</span><br>
                   </label>
+                  <br>
                 <label>
                   Your message:
-                  <textarea name="message"></textarea>
+                  <textarea id="message" name="message"></textarea>
+                  <span class="hidden" id="message-span">Message is invalid</span><br>
                 </label>
-                
+                <br>
                 <button type="submit">Send</button>
               </form>
                 <div class="contact-info">

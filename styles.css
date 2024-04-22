@@ -130,7 +130,7 @@ header{
 
 .contact-container{
     max-width: 800px;
-    margin: 20px;
+    margin: 30px;
 }
 
 .contact-container h2{
@@ -155,6 +155,7 @@ header{
    flex-direction: column;
    align-items: center;
    justify-content:center;
+   margin: 20px;
 }
 
 input, textarea{
@@ -200,9 +201,11 @@ button:hover{
 }
 .contact-info p{
     margin: 10px; 
-
 }
 
+.hidden{
+    display: none;
+}
 /*hero*/
 
 .Video{
