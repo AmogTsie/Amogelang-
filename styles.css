@@ -89,14 +89,14 @@ header{
 
 /*about me*/
 
+
 .container{
     display: flex;
-    margin: 10px;
+   
 }
 
 .Box1{
-    margin: 10px;
-    padding: 10px;
+    padding:10px;
     border: 5px solid;
     border: none;
     width: 900px;
@@ -104,16 +104,17 @@ header{
     background-color: #1c302b;
     color: #d8d8d8;
     font-size: larger;
-    margin: 10px;
 }
+
+
 
 .Box2{
     border: 5px solid;
     border: none;
     width: 1500px;
     height:1000px; 
-    margin: 30px;
-    padding: 10px;
+    margin: 10px;
+    padding: 40px;
     font-size: 20px;
 }
 
@@ -129,7 +130,7 @@ header{
 /*Form section*/
 
 .contact-container{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 30px;
 }
 
@@ -140,6 +141,7 @@ header{
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    margin-left: 90px;
     
 }
 .contact-container p{
@@ -148,6 +150,7 @@ header{
     flex-direction: column;
     font-size: larger;
     justify-content: center;
+    margin-left: 90px;
 }
 
 .contact-centent{
@@ -155,12 +158,13 @@ header{
    flex-direction: column;
    align-items: center;
    justify-content:center;
-   margin: 20px;
+   margin: 40px;
 }
 
+
 input, textarea{
-    width: 100%;
-    padding: 12px;
+    width: 150%;
+    padding: 10px;
     border-radius: 8px;
     border: none;
     background-color: #dddfdeab;
@@ -200,7 +204,7 @@ button:hover{
     text-align: center;
 }
 .contact-info p{
-    margin: 10px; 
+    margin: 30px; 
 }
 
 .hidden{
